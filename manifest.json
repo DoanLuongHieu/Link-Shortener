@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Link Shortener",
+  "version": "1.0",
+  "description": "A simple Chrome extension for shortening links.",
+  "icons": {
+    "48": "icon.png"
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Link Shortener"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
